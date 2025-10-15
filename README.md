@@ -1,4 +1,4 @@
-# 🧩 Sokoban AI Solver — AI Project
+# Sokoban AI Solver — AI Project
 
 ![Demo](./Assets/Demo.gif) 
 
@@ -76,10 +76,10 @@ pip install "matplotlib>=3.7,<3.10" "numpy>=1.23" "Pillow>=9.0"
 python app.py
 ```
 
-1️⃣ Chọn **Level** trong combobox  
-2️⃣ Chọn **Thuật toán** (BFS, DFS, Greedy, A*, …)  
-3️⃣ Nhấn **Chạy** để bắt đầu  
-4️⃣ Quan sát **bảng thống kê thời gian, số nút sinh ra, số bước đi**
+Chọn **Level** trong combobox  
+Chọn **Thuật toán** (BFS, DFS, Greedy, A*, …)  
+Nhấn **Chạy** để bắt đầu  
+Quan sát **bảng thống kê thời gian, số nút sinh ra, số bước đi**
 
 ---
 
@@ -97,7 +97,7 @@ python app.py
 
 ---
 
-## 📊 Đánh giá & Kết quả thực nghiệm 
+## Đánh giá & Kết quả thực nghiệm 
 | Thuật toán                   | Nhận xét chính                                                |
 | :--------------------------- | :------------------------------------------------------------ |
 | **PO (Partial Observable)**  | Nhanh và tiết kiệm bộ nhớ; thích hợp môi trường mờ.           |
@@ -119,7 +119,7 @@ python app.py
 
 ---
 
-## 🚀 Hướng cải tiến
+## Hướng cải tiến
 
 - **Deadlock Detection:** phát hiện sớm “ô chết” để cắt bỏ trạng thái vô ích.  
 - **Heuristic nâng cao:** dùng *minimum matching* giữa hộp–mục tiêu.  
@@ -128,7 +128,7 @@ python app.py
 
 ---
 
-## 👨‍💻 Nhóm sinh viên thực hiện
+## Nhóm sinh viên thực hiện
 
 | Thành viên          | MSSV                  |
 |---------------------|-----------------------|

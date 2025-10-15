@@ -60,10 +60,7 @@ def _bfs_path_to_boxes(level: Level, start: State, goal_boxes: Tuple[Coord, ...]
 # ---------- Thuật toán chính ----------
 def solve(level: Level):
     """
-    CSP thuần (Backtracking không Forward Checking):
-      1. Gán lần lượt các biến (player, box1, box2, ...).
-      2. Kiểm tra ràng buộc tại mỗi bước gán.
-      3. Nếu có nghiệm (tất cả hộp ở vị trí target), dùng BFS để dựng đường đi cụ thể.
+    Backtracking
     """
     with timer_ms() as t:
         # --- Khởi tạo dữ liệu ---
@@ -118,7 +115,7 @@ def solve(level: Level):
 
             return True
 
-        # ---------- Backtracking (Không Forward Checking) ----------
+        # ---------- Backtracking  ----------
         assignment: Dict[str, Coord] = {}
         generated = 0
         expanded = 0

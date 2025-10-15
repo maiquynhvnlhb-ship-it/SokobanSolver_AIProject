@@ -61,10 +61,7 @@ def _bfs_path_to_boxes(level: Level, start: State, goal_boxes: Tuple[Coord, ...]
 # ---------- Thuật toán chính ----------
 def solve(level: Level):
     """
-    CSP Backtracking + Forward Checking cho Sokoban:
-      • Mỗi biến (variable) là một vị trí cần gán (người chơi hoặc hộp).
-      • FC: Khi gán giá trị, cắt tỉa miền của các biến còn lại, loại bỏ giá trị mâu thuẫn.
-      • Nếu có nghiệm CSP → dùng BFS dựng đường đi cụ thể.
+    Forward Checking
     """
     with timer_ms() as t:
         walls = set(level.walls)
